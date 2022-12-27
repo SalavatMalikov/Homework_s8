@@ -24,7 +24,7 @@ for (int i = 0; i < matrix.GetLength(0); i++)
     }
      Console.WriteLine();
 }
-if (rows<matrix.GetLength(0)&&columns<matrix.GetLength(1))
+if (rows<=matrix.GetLength(0)&&columns<=matrix.GetLength(1))
 {
     Console.Write(matrix[rows-1,columns-1]);
 }
